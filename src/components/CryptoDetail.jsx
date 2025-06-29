@@ -78,7 +78,7 @@ const CryptoDetail = ({ favorites, toggleFavorite }) => {
         <p className="text-xl">{error}</p>
         <button
           onClick={() => navigate("/")}
-          className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" // Adjusted button color
+          className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" 
         >
           Back to List
         </button>
@@ -93,7 +93,7 @@ const CryptoDetail = ({ favorites, toggleFavorite }) => {
         <p className="text-xl">Coin not found.</p>
         <button
           onClick={() => navigate("/")}
-          className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" // Adjusted button color
+          className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" 
         >
           Back to List
         </button>
@@ -197,7 +197,7 @@ const CryptoDetail = ({ favorites, toggleFavorite }) => {
       <div className="flex justify-between items-center mb-4">
         <button
           onClick={() => navigate("/")}
-          className="px-4 py-2 bg-gray-700 text-gray-200 rounded-lg hover:bg-gray-600 transition-colors" // Updated for dark mode
+          className="px-4 py-2 bg-gray-700 text-gray-200 rounded-lg hover:bg-gray-600 transition-colors" 
         >
           &larr; Back to List
         </button>
